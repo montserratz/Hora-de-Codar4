@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 3</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+
+    var loop = true
+
+    var frutas = ['Melancia', 'Laranja' ];
+
+
+    while (loop == true) {
+
+        alert(frutas)
+
+        var fruta = prompt('Digite uma das frutas da lista')
+
+        var index = frutas.indexOf(fruta)
+
+        if (index > -1) {
+            frutas.splice(index, 1)
+            alert('A fruta foi removida da lista')
+        } else {
+            alert('Fruta indisponível no nosso mercado.')
+        }
+
+        if (frutas.length < 1) {
+            alert('Lista de compras finalizado.')
+        }
+        
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>

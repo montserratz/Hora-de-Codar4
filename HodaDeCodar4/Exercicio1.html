@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercico 1</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<script>
+
+
+
+function Main(){
+
+    let continuar = true;
+
+    var alunos = []
+
+    var contador = 0; 
+
+
+    while (continuar){
+
+        var nomes = prompt("Digite o nome do estudante: ");
+       
+
+        if (nomes == 'PARE' ){
+            continuar = false;
+    
+        }else{
+            alunos.push(nomes);
+            contador++;
+      
+        }
+
+
+    }
+
+
+
+    document.write("A quantidade de alunos foi:" + contador );
+    document.write("<br> Os alunos são: " + alunos);
+
+
+
+}
+
+
+
+
+
+Main();
+
+
+
+</script>
